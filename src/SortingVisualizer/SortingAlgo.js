@@ -97,23 +97,23 @@ const doMerge = (
   //   console.log(mainArray.slice(startIdx, endIdx + 1));
 };
 
-const merge = (array1, array2) => {
-  const newArray = [];
-  let pointer1 = 0;
-  let pointer2 = 0;
-  while (pointer1 !== array1.length && pointer2 !== array2.length) {
-    if (array1[pointer1] < array2[pointer2]) {
-      newArray.push(array1[pointer1]);
-      pointer1++;
-    } else {
-      newArray.push(array2[pointer2]);
-      pointer2++;
-    }
-  }
-  while (pointer1 !== array1.length) newArray.push(array1[pointer1++]);
-  while (pointer2 !== array2.length) newArray.push(array2[pointer2++]);
-  return newArray;
-};
+// const merge = (array1, array2) => {
+//   const newArray = [];
+//   let pointer1 = 0;
+//   let pointer2 = 0;
+//   while (pointer1 !== array1.length && pointer2 !== array2.length) {
+//     if (array1[pointer1] < array2[pointer2]) {
+//       newArray.push(array1[pointer1]);
+//       pointer1++;
+//     } else {
+//       newArray.push(array2[pointer2]);
+//       pointer2++;
+//     }
+//   }
+//   while (pointer1 !== array1.length) newArray.push(array1[pointer1++]);
+//   while (pointer2 !== array2.length) newArray.push(array2[pointer2++]);
+//   return newArray;
+// };
 
 export function heapSort(arr) {
   let n = arr.length;

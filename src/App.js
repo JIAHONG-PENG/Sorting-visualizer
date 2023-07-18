@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
 import SortingVisualizer from "./SortingVisualizer/SortingVisualizer";
-import TopBar from "./TopBar";
+// import TopBar from "./TopBar";
 // import RefreshArrayBtn from "./RefreshArrayBtn";
 
 function App() {

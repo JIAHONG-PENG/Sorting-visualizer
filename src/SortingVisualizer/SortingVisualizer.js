@@ -42,7 +42,7 @@ export default class SortingVisualizer extends Component {
   mergeSort() {
     if (!this.state.isSorted) {
       const timeinterval = this.countUpTimer();
-      const { sortedArray, animations } = mergeSort(this.state.array);
+      const { animations } = mergeSort(this.state.array);
       // this.setState({ array: sortedArray });
 
       const swapArray1 = animations.map((animation) => animation.swap);
@@ -94,7 +94,7 @@ export default class SortingVisualizer extends Component {
     if (!this.state.isSorted) {
       const timeinterval = this.countUpTimer();
 
-      const { animations, arr } = bubbleSort(this.state.array);
+      const { animations } = bubbleSort(this.state.array);
       const swapArray = [];
 
       for (let i = 0; i < animations.length; i++) {
