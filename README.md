@@ -1,4 +1,4 @@
-## Play around with this Sort Algorithm Visualizer 
+## Play around with this Sort Algorithm Visualizer (React)
 #### https://glowing-conkies-a1fa52.netlify.app/ or `npm run dev`
 
 ### Overview
